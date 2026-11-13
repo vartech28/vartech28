@@ -38,6 +38,17 @@
   written up as runbooks.
   - A security audit found and closed an unintended cloud data exposure. SSH is key-only, test services are local-only, and credentials live in a vault.
 
+ ### Podcast editing lead-gen engine
+
+  Built for The BOSS Hub and running since September 2026. Multiple n8n workflows, designed by Claude under my direction, that find US podcasts and pitch them
+  editing.
+
+  - Scans the Apple Podcasts directory and Google for shows, then finds each show's YouTube channel
+  - An AI model scores every show against a lead-scoring method I designed from the business requirements
+  - For qualified leads, the AI writes a personalised email from the podcast's latest YouTube episode and sends it through the Gmail API
+  - We also sent custom-edited reels to leads
+  - Daily Telegram alerts on lead-gen and outreach status
+
   ### Clauding Hours
 
   A Mac app I built with Claude Code. It runs alongside your work as a timer and tracks time spent on Claude.
